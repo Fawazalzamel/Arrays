@@ -1,0 +1,10 @@
+class Main {
+  public static void main(String[] args) {
+
+    int[] temperatures = {27,25,23,21,19};
+    temperatures[2]=22;
+
+    for(int i=0; i<temperatures.length; i++){
+      System.out.println(temperatures[i]);
+  
+  }}
